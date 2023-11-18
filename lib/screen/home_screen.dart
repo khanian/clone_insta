@@ -24,7 +24,7 @@ class StroyArea extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
-        children: List.generate(10, (index) => UserStory(userName: 'user $index')),
+        children: List.generate(10, (index) => UserStory(userName: 'User $index')),
       ),
     );
   }
